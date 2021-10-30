@@ -1,13 +1,9 @@
+
 <template>
-  這是首页
+  <h1>App</h1>
+  <TodoList />
 </template>
 
-<script>
-export default {
-name: "home"
-}
+<script setup>
+import TodoList from "../components/todoList/TodoList.vue";
 </script>
-
-<style scoped>
-
-</style>
